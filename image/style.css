@@ -1,13 +1,17 @@
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 30px; 
     margin: 0;
+    font-size: 20px;
 
 
 }
 .name{
     color: rgb(205, 102, 50);
-    .
+    
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
 
@@ -23,19 +27,89 @@ body{
 
 
 }
-.top-banner{
-
-    background-image: url("top-banner.png");
-    background-repeat: no-repeat;
-    
-
-
-}
 section{
     height: 500px;
 }
-.link-buton{
 
-    background-image: -o-linear-gradient(tomato lightgrey);
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(45deg,lightsalmon, tomato);
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+     .web{
+        color: salmon;
+
+     }
+     .second-width{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+               
+
+     }
+         .second-width img {
+            width: 70%;
+
+            
+         }
+   .button{
+    text-decoration: none;
+    color:  rgb(206, 191, 51);
+    padding: 10px;
+    background-image:linear-gradient(45deg, white,green);
+    border-radius: 5px;
+
+
+   }
+.dream{
+        background-image: url("dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        
+
+       }
+      
+        .third-width{ 
+            width: 40%;
+            float: left;
+            margin-left: 5%;
+            padding-left: 2%;
+            box-shadow: 10px 10px 40px gray;
+            border-radius: 20px;
+            height: 80%;
+
+
+        }
+    .last-banner{
+        background-image: url( exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+
+    }
+
+   #full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+
+
+    border-image-slice: 1;
+
+
+
+    
+   }
+    
+     
+
+#professional{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+
+
+    border-image-slice: 1;
+
+
 }
 
